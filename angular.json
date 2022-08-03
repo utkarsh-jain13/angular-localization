@@ -6,6 +6,7 @@
     "angular-localization": {
       // Configure the locale and the path of translated file.
       "i18n": {
+        "sourceLocale": "en-US",
         "locales": {
           "en": {
             "translation": "src/translate/messages.en.xlf"
