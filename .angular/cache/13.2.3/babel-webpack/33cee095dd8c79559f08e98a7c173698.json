@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Feedback {\n  constructor() {\n    this.name = '';\n    this.gender = '';\n    this.rating = '';\n    this.comment = '';\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
