@@ -62,12 +62,15 @@
               ],
               "outputHashing": "all"
             },
+            
             // Configuration for locale definition in the build configuration
             "en": {
               "localize": ["en"]
             },
             "fr": {
-              "localize": ["fr"]
+              "localize": ["fr"],
+              "outputPath": "docs/fr/",
+              "i18nMissingTranslation": "error"
             },
             "development": {
               "buildOptimizer": false,
