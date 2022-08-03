@@ -29,7 +29,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/angular-localization/en",
+            "baseHref": "/angular-localization/",
             "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
