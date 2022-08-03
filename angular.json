@@ -67,9 +67,7 @@
             
             // Configuration for locale definition in the build configuration
             "en": {
-              "localize": ["en"],
-              "outputPath": "docs/en/",
-              "i18nMissingTranslation": "error"
+              "localize": ["en"]
             },
             "fr": {
               "localize": ["fr"],
