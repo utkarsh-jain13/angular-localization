@@ -15,6 +15,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
   declarations: [AppComponent, NavBarComponent, FeedbackComponent],
@@ -31,7 +32,7 @@ import { FeedbackComponent } from './feedback/feedback.component';
     MatIconModule,
     FormsModule,
   ],
-  providers: [],
+  providers: [{ provide: APP_BASE_HREF, useValue: "/angular-localization/" }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
